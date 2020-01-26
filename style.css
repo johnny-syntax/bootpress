@@ -1,0 +1,53 @@
+/*
+  Theme Name: BootPress
+  Author: John T. Kline
+  Author URI: www.johnny-syntax.com
+  Description: Simple Bootstrap Theme for Wordpress
+  Version: 9.9.9
+*/
+
+.navbar-toggler {
+ padding: 4px 7px;
+ border-radius: 0;
+ border: none;
+}
+.card {
+  margin-top: 20px;
+}
+.card-header h2, .card-header h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+article.post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+article.post .meta {
+  background: #f2f2f2;
+  padding: 8px 12px;
+  color: #333;
+}
+
+.card-body ul {
+  padding-left: 0;
+}
+
+.comment-list {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.comment-item {
+  padding: 15px;
+  width: 100%;
+}
+.comment-item ul {
+  padding-left: 15px;
+}
+
+.container.index {
+  min-height: 100vh;
+}
